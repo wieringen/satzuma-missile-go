@@ -1,0 +1,15 @@
+{
+"editor.formatOnSave": true,
+"gopls": {
+  "ui.semanticTokens": true,
+  "formatting.gofumpt": true
+},
+"[go]": {
+  "editor.defaultFormatter": "golang.go"
+},
+"go.lintTool": "golangci-lint",
+"go.lintFlags": ["--fast"],
+"go.alternateTools": {
+  "go": "/opt/homebrew/bin/go"
+}
+}
