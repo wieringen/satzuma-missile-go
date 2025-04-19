@@ -1,8 +1,6 @@
-# missile-go/README.md
-
 # Missile Go
 
-Missile Go is a terminal-based application that allows you to control missile devices via USB or over a network. The application supports multiple modes of operation, including a graphical display mode, a console mode for direct command input, and a network mode for remote control.
+Missile Go is a terminal-based application that allows you to control Satzuma missile devices via USB or over a network. The application supports multiple modes of operation, including a graphical display mode, a console mode for direct command input, and a network mode for remote control.
 
 This is a rewrite of: https://github.com/momentofgeekiness/pymissile-ng 
 
@@ -20,8 +18,8 @@ This is a rewrite of: https://github.com/momentofgeekiness/pymissile-ng
 To install the project, clone the repository and navigate to the project directory:
 
 ```bash
-git clone <repository-url>
-cd missile-go
+git clone git@github.com:wieringen/satzuma-missile-go.git
+cd satzuma-missile-go
 ```
 
 Then, run the following command to download the necessary dependencies:
@@ -51,7 +49,6 @@ go run cmd/main.go --console
 ```bash
 go run cmd/main.go --network
 ```
-
 
 ## License
 
